@@ -1,0 +1,9 @@
+cast_info ci##ci.person_id,=,172968#838
+title t,movie_info mi#t.id=mi.movie_id#t.kind_id,<,3,t.production_year,=,2008,mi.info_type_id,>,2#297013
+title t,cast_info ci#t.id=ci.movie_id#ci.person_id,<,3194645#31427248
+title t,cast_info ci,movie_info mi#t.id=ci.movie_id,t.id=mi.movie_id#ci.person_id,=,1742124,ci.role_id,>,2,mi.info_type_id,<,7#12
+title t,cast_info ci,movie_info_idx mi_idx#t.id=ci.movie_id,t.id=mi_idx.movie_id#t.kind_id,=,7,t.production_year,>,0,ci.role_id,=,2,mi_idx.info_type_id,=,101#733244
+title t,movie_companies mc#t.id=mc.movie_id#t.production_year,<,2000,mc.company_id,=,160,mc.company_type_id,=,2#515
+title t,movie_companies mc,movie_info_idx mi_idx#t.id=mc.movie_id,t.id=mi_idx.movie_id#mc.company_id,<,77942,mc.company_type_id,>,1#1141529
+movie_keyword mk##mk.keyword_id,<,71692#4344670
+title t,cast_info ci,movie_info_idx mi_idx#t.id=ci.movie_id,t.id=mi_idx.movie_id#ci.person_id,>,681261,ci.role_id,>,1,mi_idx.info_type_id,=,99#7987245
